@@ -1,0 +1,134 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #6565e7; }
+
+.carta {
+  border-radius: 25px;
+  background-color: #d6d3da;
+  width: 340px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(146, 61, 226, 0.676);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(134, 64, 205, 0.667);
+  box-shadow: 10px 10px 5px 0px rgba(126, 50, 196, 0.64); }
+
+@media (min-width: 850px) {
+  .carta {
+    border-radius: 25px;
+    background-color: #d6d3da;
+    width: 740px;
+    padding: 0px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(146, 61, 226, 0.676);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(134, 64, 205, 0.667);
+    box-shadow: 10px 10px 5px 0px rgba(126, 50, 196, 0.64); } }
+.carta-header {
+  text-align: center;
+  height: 150px;
+  margin-bottom: 70px; }
+  .carta-header img {
+    position: relative;
+    height: 210px;
+    bottom: 120px; }
+  .carta-header h1 {
+    font-family: "Kumbh Sans", sans-serif;
+    color: #480e82;
+    position: relative;
+    bottom: 100px; }
+
+@media (min-width: 850px) {
+  .carta-header {
+    text-align: center;
+    height: 150px; }
+    .carta-header img {
+      position: relative;
+      height: 210px;
+      right: 80px;
+      top: 100px; }
+    .carta-header h1 {
+      font-family: "Kumbh Sans", sans-serif;
+      color: #480e82;
+      position: relative;
+      bottom: 190px;
+      left: 300px; } }
+.carta-main .carta-container {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  margin: 0px 18px 18px 18px; }
+.carta-main .main_pregunta {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .carta-main .main_pregunta h2 {
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 0.8rem;
+    color: #480e82; }
+.carta-main .main_svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer; }
+  .carta-main .main_svg .svg {
+    height: 16px;
+    fill: #662d89; }
+  .carta-main .main_svg .main_svg-ocultar .svg-ocultar {
+    display: none;
+    height: 16px;
+    fill: #662d89; }
+.carta-main .carta-respuesta p {
+  font-family: "Kumbh Sans", sans-serif;
+  color: #080808; }
+
+@media (min-width: 850px) {
+  .contenedor-preguntas {
+    margin: 100px 28px 100px 0px;
+    width: 100%; }
+    .contenedor-preguntas .carta-main .carta-container {
+      display: flex;
+      justify-content: space-between;
+      height: auto;
+      margin: 18px 0px 0px 0px; }
+    .contenedor-preguntas .carta-main .main_pregunta {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .contenedor-preguntas .carta-main .main_pregunta h2 {
+        font-family: "Kumbh Sans", sans-serif;
+        font-size: 0.9rem;
+        color: #480e82; }
+    .contenedor-preguntas .carta-main .main_svg {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer; }
+      .contenedor-preguntas .carta-main .main_svg .svg {
+        height: 16px;
+        fill: #662d89; }
+      .contenedor-preguntas .carta-main .main_svg .main_svg-ocultar .svg-ocultar {
+        display: none;
+        height: 16px;
+        fill: #662d89; }
+    .contenedor-preguntas .carta-main .carta-respuesta {
+      margin: 0px 18px 0px 0px; }
+      .contenedor-preguntas .carta-main .carta-respuesta p {
+        font-family: "Kumbh Sans", sans-serif;
+        color: #080808;
+        font-size: 0.8rem; } }
+.carta-respuesta {
+  display: none;
+  margin: 0px 18px; }
+  .carta-respuesta p {
+    font-family: "Kumbh Sans", sans-serif;
+    color: #aba3a3;
+    font-size: 0.7rem; }
+
+/*# sourceMappingURL=estilo.css.map */

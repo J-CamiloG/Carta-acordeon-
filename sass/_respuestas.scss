@@ -1,0 +1,10 @@
+@import"variables";
+.carta-respuesta{
+    display: none;
+    margin: 0px 18px;
+    p{
+        font-family: $tipodeletra;
+        color: $colorrespuesta;
+        font-size:$textrespuesta ;
+    }
+}

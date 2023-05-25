@@ -1,0 +1,29 @@
+@import"variables";
+
+.carta{
+    border-radius: 25px;
+    background-color: $colorcarta;
+    width: 340px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(146, 61, 226, 0.676);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(134, 64, 205, 0.667);
+    box-shadow: 10px 10px 5px 0px rgba(126, 50, 196, 0.64);
+}
+@media (min-width: 850px ) {
+    .carta{
+        border-radius: 25px;
+        background-color: $colorcarta;
+        width: 740px;
+        padding: 0px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(146, 61, 226, 0.676);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(134, 64, 205, 0.667);
+        box-shadow: 10px 10px 5px 0px rgba(126, 50, 196, 0.64);
+    }
+}

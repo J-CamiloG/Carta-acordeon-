@@ -1,0 +1,93 @@
+@import"variables";
+@import"animation";
+
+.carta-main{
+    .carta-container{
+        display: flex;
+        justify-content: space-between;
+        height: auto;
+        margin: 0px 18px 18px 18px;
+    }
+    .main_pregunta{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h2{
+            font-family: $tipodeletra;
+            font-size: $texth2;
+            color: $colorh2;
+        }
+    }
+    .main_svg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        .svg{
+            height: 16px;
+            fill: $colorfill;
+        }
+        .main_svg-ocultar{
+            .svg-ocultar{
+                display: none;
+                height: 16px;
+                fill: $colorfill;
+            }
+        }
+    }
+    .carta-respuesta{
+        p{
+            font-family: $tipodeletra;
+            color: $colop;
+        }
+    }
+}
+@media (min-width: 850px ) {
+    .contenedor-preguntas{
+        margin: 100px 28px 100px 0px;
+        width: 100%;
+        .carta-main{
+            .carta-container{
+                display: flex;
+                justify-content: space-between;
+                height: auto;
+                margin: 18px 0px 0px 0px;
+            }
+            .main_pregunta{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                h2{
+                    font-family: $tipodeletra;
+                    font-size: $texth2escritoriopreguntas;
+                    color: $colorh2;
+                }
+            }
+            .main_svg{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                .svg{
+                    height: 16px;
+                    fill: $colorfill;
+                }
+                .main_svg-ocultar{
+                    .svg-ocultar{
+                        display: none;
+                        height: 16px;
+                        fill: $colorfill;
+                    }
+                }
+            }
+            .carta-respuesta{
+                margin: 0px 18px 0px 0px;
+                p{
+                    font-family: $tipodeletra;
+                    color: $colop;
+                    font-size: $textrespuestaescritorio;
+                }
+            }
+        }
+    }
+}

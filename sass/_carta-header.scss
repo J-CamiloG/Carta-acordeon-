@@ -1,0 +1,39 @@
+@import"variables";
+
+.carta-header{
+    text-align: center;
+    height: 150px;
+    margin-bottom: 70px;
+    img{
+        position: relative;
+        height: 210px;
+        bottom: 120px;
+    }
+    h1{
+        font-family: $tipodeletra;
+        color: $colorh1;
+        position: relative;
+        bottom: 100px;
+    }
+
+}
+@media (min-width: 850px ) {
+    .carta-header{
+        text-align: center;
+        height: 150px;
+        img{
+            position: relative;
+            height: 210px;
+            right: 80px;
+            top: 100px;
+        }
+        h1{
+            font-family: $tipodeletra;
+            color: $colorh1;
+            position: relative;
+            bottom: 190px;
+            left: 300px;
+        }
+    
+    }
+}
